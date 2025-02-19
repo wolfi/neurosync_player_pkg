@@ -8,6 +8,7 @@ include = ["neurosync_player*"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["neurosync_player"]
+sources = ["neurosync_player"]
 
 [project]
 name = "neurosync_player"
